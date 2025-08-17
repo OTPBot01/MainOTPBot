@@ -192,7 +192,7 @@ async def main():
 
 import sys
 
-if __name__ == "__main__"
+if __name__ == "__main__":
     if sys.platform.startswith("win"):
         asyncio.run(main())
     else:
